@@ -200,6 +200,7 @@ all_trips_v2 %>%
   geom_col(position='dodge') +
   scale_fill_manual("legend", values = c("member" = "seagreen", "casual" = "gold1")) + 
   ggtitle("Number of Rides For Memeber Type by Weekday")
+# Here we can see that members have a higher number of rides per day over the last year, this could be due to the fact that members get unlimited rides for a monthly fee.
 ####
 #### Average Ride Length by Member Status and Weekday
 ####
@@ -213,7 +214,7 @@ all_trips_v2 %>%
   geom_col(position = "dodge") +
   scale_fill_manual("legend", values = c("member" = "seagreen", "casual" = "gold1")) +
   ggtitle("Average Ride Length For Member Status by Weekday")
-
+# This graph illustrates how casual riders have a higher duration of ride time than members per weekday than members do.
 ####
 #### Visualization for average ride length by month by member type
 ####
@@ -226,5 +227,13 @@ all_trips_v2%>%
   geom_col(position = "dodge") +
   scale_fill_manual("legend", values = c("member" = "seagreen", "casual" = "gold1")) +
   ggtitle("Average Ride Length For Member Status by Month")
-
+# We take a step back and look at ride averages per month by membership tyoe and again see that casual riders have higher averages ride durations than members.
+#
+#
+#
+# After analyzing the data we have seen that members typically ride more while casual members have higher ride durations. Somethings we can deduct from this analysis to contribute
+# to a marketing strategy are:
+# 1) Create a marketing campaign showing how membership could be finacial beneficail because ride durtion is so high with casual riders, that membership could save them money.
+# 2) Run a promotion, free week trial, for casual riders to experience membership benefits of unlimited rides for a monthly fee.
+# 3) Highlight how membership leads to more rides since mebers have more rides than casual riders.
 

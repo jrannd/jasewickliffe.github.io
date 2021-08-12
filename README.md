@@ -1,1 +1,2 @@
-
+In this analysis we want to examine how members and casual riders interact with a bikeshare company to see how we can form a marketing strategy to convert casual riders to members.
+This analysis used "'Sophisticated, Clear, and Polished’: Divvy and Data Visualization" written by Kevin Hartman (found here: https://artscience.blog/home/divvy-dataviz-case-study) as a reference for cleaning and aggregating functions.
